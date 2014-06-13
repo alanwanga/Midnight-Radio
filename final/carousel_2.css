@@ -1,0 +1,64 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+#myCarousel, .carousel-inner{height:100%;}
+
+body {
+  color: #000 !important;
+  background-color: #bbb;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  margin-top: 20px;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 4px;
+}
+
+.navbar-header a{
+	font-size: 26px;
+	font-weight: 900;
+}
+
+.navbar-collapse a{
+	font-size: 18px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+
+
+.carousel .item {
+  background-color: #bbb;
+  /*height: 800px;*/
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item .active {
+  background-color: #bbb;
+}

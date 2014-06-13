@@ -1,0 +1,204 @@
+.popupbox {
+	width:50%;
+	height:500px;
+	/*background-image:url(3_03.png);*/
+	background-color:#ffffff;
+	/*background-repeat:no-repeat;*/
+	display: none; /* Hidden as default */
+	float: left;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	overflow:auto;
+}
+.popupbox2 {
+	border: 10px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+	color: #333333;
+	width:454px;
+	height:327px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	display: none; 
+	position: fixed;
+	top: 40%; 
+	left: 50%;
+	z-index: 99999;
+	
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	text-align:center;
+}
+
+.popupBOX
+{
+	border: 10px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+	color: #333333;
+	width:454px;
+	height:327px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	display: none; 
+	position: fixed;
+	top: 40%; 
+	left: 50%;
+	z-index: 99999;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	text-align:center;
+}
+
+.popupbox3 {
+	width:502px;
+	height:302px;
+	background-color:#ffffff;
+	display: none;
+	float: left;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	text-align:center;
+}
+
+#backgroundPopup { 
+	z-index:1;
+	position: fixed;
+	display:none;
+	height:100%;
+	width:100%;
+	background:#000000;
+	top:0px;  
+	left:0px;
+}
+#toPopup {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 10px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    display: none;
+	font-size: 14px;
+    left: 60%;
+    margin-left: -402px;
+    position: fixed;
+    top: 20%;
+    width: 500px;
+    z-index: 2;
+}
+
+.close {
+    background: url("./img/closebox.png") no-repeat;
+    bottom: 24px;
+    cursor: pointer;
+
+    height: 30px;
+	z-index: 999999;
+    left: 27px;
+    position: relative;
+    width: 30px;
+}
+
+.loader {
+    background: url("./img/loading.gif") no-repeat scroll 0 0 transparent;
+    height: 32px;
+    width: 32px;
+	display: none;
+	z-index: 9999;
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	margin-left: -10px;
+}
+
+span.ecs_tooltip {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 16px;
+    opacity: 0.7;
+    padding: 4px 3px 2px 5px;
+    position: absolute;
+    right: -62px;
+    text-align: center;
+    top: -51px;
+    width: 93px;
+}
+
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+
+.popup_content {
+	
+}
+
+.songNames{
+	font-size: 14px;
+	text-align: center;
+}
+
+.textInput{
+	position:relative;
+	border: 1px solid #A9A9A9 ;
+	font-size: 17px;
+	border-radius: 5px;
+	background: rgba(255,255,255,1);
+	height:40px;
+	width:240px;
+}
+
+#fade { 
+	display: none; /* Hidden as default */
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .80;
+	z-index: 9999;
+}
+#intabdiv2 {
+	padding:20px;
+}
+#intabdiv2  h2 {
+	font-size:26px;
+	color:#696868;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#intabdiv2 p {
+	font-size:12px;
+	color:#696868;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:20px;
+}
+
+#intabdiv3 {
+	padding:5px;
+}
+#intabdiv3  h2 {
+	font-size:26px;
+	color:#696868;
+	font-family:Verdana, Geneva, sans-serif;
+	
+}
+#intabdiv3 p {
+	font-size:12px;
+	color:#696868;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:20px;
+}
