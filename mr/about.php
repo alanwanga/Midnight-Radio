@@ -1,16 +1,5 @@
 <!DOCTYPE html>
 <!-- saved from url=(0042)http://getbootstrap.com/examples/carousel/ -->
-<?php
-session_start();
-$acc = $_SESSION['acc'];
-$logout = $_GET['logout'];
-include("mysqlInc.php");
-if($_GET['logout']!=NULL)
-{
-	session_destroy();
-	echo '<meta http-equiv=REFRESH CONTENT=0;url=index.php>';
-}
-?>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -110,6 +99,8 @@ if($_GET['logout']!=NULL)
 	<script src="./Carousel Template for Bootstrap_files/bootstrap.min.js"></script>
     <script src="./Carousel Template for Bootstrap_files/docs.min.js"></script>
 	<script type="text/javascript" src="./Carousel Template for Bootstrap_files/script.js"></script>
-
+	<script>
+	alert('\nThe platform is for learning purpose, and it is\n\navailable only to the members of the development team.\n\nPlease do NOT tell others our URL. Thank you.\n\n');
+	</script>;
 </body>
 </html>

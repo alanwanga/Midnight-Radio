@@ -142,7 +142,7 @@ elseif($_GET['step'] == 4)
 {
 	if($_FILES["uploadFile"]["name"] != NULL)
 	{
-		$whiteList = array('jpg', 'png', 'gif');
+		$whiteList = array('jpeg', 'jpg', 'png', 'gif');
 		$newDir = "./uploadFile/";
 		$extension = strtolower(end(explode(".", $_FILES["uploadFile"]["name"])));
 		if(in_array($extension, $whiteList))

@@ -23,7 +23,7 @@
 	//	{
 			echo "<td width=\"1000px\"><input type=\"submit\" class=\"but\"  name=\"$passi\" value=\"通過\"><input type=\"submit\" class=\"but\"  name=\"$deli\" value=\"不通過\"></td>";
 	//	}
-		if($extension=="jpg"||$extension=="png")
+		if($extension=="jpeg" || $extension=="jpg" || $extension=="png")
 		{
 			echo '<tr><td width=\"1000px\"><p align="center"><img  src="'.$temp_songpicpath.'" height="100"  /></p></td>';
 		}
@@ -54,8 +54,9 @@ p {font-family: DFKai-sb; font-size: 36px;}
 <a href="index.php"><input type="button" value="Back" /></a>
 </center>
 
-<?php
-	if($_SESSION['acc'] != root)
+<?
+	$acc = $_SESSION['acc'];
+	if(!($acc == "root" || $acc == "ponyu"))
 	{
 		echo '<meta http-equiv=REFRESH CONTENT=0;url=index.php>';
 		return;

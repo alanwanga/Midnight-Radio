@@ -87,7 +87,7 @@ if($_GET['logout']!=NULL)
 						echo '<li><a href="#" rel="popuprel3" class="popup">Register</a></li>';
 						echo '<li><a href="#" rel="popuprel2" class="popup">Login</a></li>';
 					}
-					else if($_SESSION['acc']=="root")
+					elseif($_SESSION['acc'] == "root" || $_SESSION['acc'] == "ponyu")
 					{
 						echo
 							'<li class="dropdown">',
