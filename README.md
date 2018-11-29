@@ -2,7 +2,7 @@
 - A platform to share music, lyrics, and pictures with friends
 - Simulate radio-like live streaming by PHP and AJAX only with web server
 - Quality assurance by synchronization mechanisms
-
+---
 <!-- saved from url=(0048)http://m99.nthu.edu.tw/~s9962301/groupReport.htm -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
