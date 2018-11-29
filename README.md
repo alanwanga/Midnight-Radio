@@ -38,7 +38,5 @@
 
 <p style="background-color:#f99;font-size:17pt">參考資料</p>
 [1] <a href="http://getbootstrap.com/">Bootstrap</a><br>
-[2] <a href="http://140.114.85.76/~geniusturtle/CS343100/s14/">課程網站</a><br>
-
 
 </body></html>
